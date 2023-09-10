@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\.cs211\;CMake Files\.cs211\lib\;CMake Files\.cs211\lib\catch\;CMake Files\.cs211\lib\ge211\;CMake Files\.cs211\lib\ge211\cmake\;CMake Files\.cs211\lib\ge211\include\;CMake Files\.cs211\lib\ge211\3rdparty\;CMake Files\.cs211\lib\ge211\3rdparty\utf8-cpp\;CMake Files\.cs211\lib\ge211\src\;CMake Files\.cs211\lib\ge211\doc\;CMake Files\.cs211\lib\ge211\example\;CMake Files\.cs211\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\.cs211\;CMake Files\cmake-build-debug\.cs211\lib\;CMake Files\cmake-build-debug\.cs211\lib\ge211\;CMake Files\cmake-build-debug\.cs211\lib\ge211\doc\;CMake Files\cmake-build-debug\.cs211\lib\ge211\doc\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/joanna/Downloads/FINAL/src"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/joanna/Downloads/FINAL/src"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="model_test">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/model_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCS211_TESTING"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/src"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/catch/include"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 model_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="model_test/fast">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/model_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCS211_TESTING"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/src"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/catch/include"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 model_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/libcatch.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/catch/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/Makefile&quot;  VERBOSE=1 catch"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch/fast">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/libcatch.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/catch/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/Makefile&quot;  VERBOSE=1 catch/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/catch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ge211">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/libge211.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGE211_RESOURCES=&quot;/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../Resources/&quot;,&quot;/usr/local/share/ge211/&quot;"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/3rdparty/utf8-cpp/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/Makefile&quot;  VERBOSE=1 ge211"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ge211/fast">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/libge211.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGE211_RESOURCES=&quot;/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../Resources/&quot;,&quot;/usr/local/share/ge211/&quot;"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/3rdparty/utf8-cpp/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/Makefile&quot;  VERBOSE=1 ge211/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fetch-StdLib-Tags">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 Fetch-StdLib-Tags"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Build-GE211-Docs">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 Build-GE211-Docs"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Upload-GE211-Docs">
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 Upload-GE211-Docs"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fireworks">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/fireworks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/Makefile&quot;  VERBOSE=1 fireworks"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fireworks/fast">
+				<Option output="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/fireworks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/src/../include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/Makefile&quot;  VERBOSE=1 fireworks/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/catch/include/catch.hxx">
+			<Option target="catch"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/catch/src/catch.cxx">
+			<Option target="catch"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/example/fireworks.cxx">
+			<Option target="fireworks"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_audio.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_base.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_color.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_engine.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_error.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_event.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_forward.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_geometry.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_if_cpp.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_noexcept.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_random.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_render.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_resource.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_session.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_sprites.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_time.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_type_traits.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_util.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_window.hxx">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_audio.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_base.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_color.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_engine.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_error.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_event.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_geometry.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_random.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_render.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_resource.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_session.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_sprites.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/ge211_window.cxx">
+			<Option target="ge211"/>
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/FRONTMATTER.md">
+			<Option target="Build-GE211-Docs"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/src/controller.cxx">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/src/controller.hxx">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/src/main.cxx">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/src/model.cxx">
+			<Option target="game"/>
+			<Option target="model_test"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/src/model.hxx">
+			<Option target="game"/>
+			<Option target="model_test"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/src/view.cxx">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/src/view.hxx">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/test/model_test.cxx">
+			<Option target="model_test"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/catch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.cs211\lib\catch\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/cmake/FindSDL2_image.cmake">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/cmake/FindSDL2_mixer.cmake">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/cmake/FindSDL2_ttf.cmake">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/cmake/Ge211Installer.cmake">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/include/ge211_version.hxx.in">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\include\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/3rdparty/utf8-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\3rdparty\utf8-cpp\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\src\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\doc\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/lib/ge211/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.cs211\lib\ge211\example\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/cmake/211commands.cmake">
+			<Option virtualFolder="CMake Files\.cs211\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/cmake/211helpers.cmake">
+			<Option virtualFolder="CMake Files\.cs211\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/.cs211/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.cs211\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/cmake-build-debug/CMakeDoxyfile.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/cmake-build-debug/CMakeDoxygenDefaults.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/Users/joanna/Downloads/FINAL/cmake-build-debug/.cs211/lib/ge211/doc/tmp/Fetch-StdLib-Tags-mkdirs.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\.cs211\lib\ge211\doc\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
